@@ -1,27 +1,120 @@
-# Portfolio
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/abrahamcastelancruz/portfolio">
+    <img src="./src/assets/images/Logo.png" alt="Logo" width="140" height="140">
+  </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+  <h3 align="center">Portfolio Website</h3>
 
-## Development server
+  <p align="center">
+    Hello! welcome to my portfolio, this is my personal web page, thanks for visiting my repository.
+    <br />
+    <a href="https://github.com/abrahamcastelancruz/portfolio"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/abrahamcastelancruz/portfolio">View Demo</a>
+    ·
+    <a href="https://github.com/abrahamcastelancruz/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/abrahamcastelancruz/portfolio/issues">Request Feature</a>
+  </p>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Code scaffolding
+<!-- ABOUT THE PROJECT -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## About The Project
 
-## Build
+<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Thi's my portfolio website, is my personal web page, thanks for visiting my repo.
 
-## Running unit tests
+### Built With
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Angular](https://angular.io/)
+- [Bulma](https://bulma.io/)
+- [Animate.css](https://animate.style/)
 
-## Running end-to-end tests
+<!-- GETTING STARTED -->
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Getting Started
 
-## Further help
+To get a local copy up and running follow these simple steps.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Prerequisites
+
+- npm
+  ```sh
+  npm install -g @angular/cli
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/abrahamcastelancruz/portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run the app in localserver 🎉
+   ```sh
+   ng serve
+   ```
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+See the [open issues](https://github.com/abrahamcastelancruz/portfolio/issues) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License.
+
+<!-- CONTACT -->
+
+## Contact
+
+Abraham Castelan Cruz - L17200745@pachuca.tecnm.mx
+
+Project Link: [https://github.com/abrahamcastelancruz/portfolio](https://github.com/abrahamcastelancruz/portfolio)
