@@ -58,6 +58,7 @@ Thi's my portfolio website, is my personal web page, thanks for visiting my repo
 - [Angular](https://angular.io/)
 - [Bulma](https://bulma.io/)
 - [Animate.css](https://animate.style/)
+- [Font Awesome](https://fontawesome.com/)
 
 <!-- GETTING STARTED -->
 

@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* Adding Fonts (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import "~normalize.css";
+
+/* Defining variables */
+:root {
+  --mono: "JetBrains Mono", monospace;
+
+  /* Colors */
+  --primary-dark: #477eff;
+  --primary: #99b8ff;
+  --primary-light: #c1d3fe;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* z index */
+  --z-fixed: 100;
+}
+
+/* Global Styles */
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
