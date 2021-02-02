@@ -5,16 +5,18 @@
       alt="Logo Abraham Castelan"
       class="logo-image"
     />
-    <span class="logo-text">Abraham Castelan Cruz</span>
+    <span class="logo-text">Abraham Castelan</span>
   </a>
-  <fa-icon [icon]="faBars"></fa-icon>
-  <nav class="navigation">
-    <div class="navigation-content bd-grid">
-      <fa-icon [icon]="faTimes"></fa-icon>
+  <fa-icon [icon]="faBars" class="hamburger-menu" (click)="hamburgerMenu()">
+  </fa-icon>
+  <nav class="navigation" [class.show]="showMenu === true">
+    <div class="navigation-content">
+      <fa-icon [icon]="faTimes" class="close-menu" (click)="hamburgerMenu()">
+      </fa-icon>
       <div class="navigation-profile">
-        <figure class="profie-avatar">
+        <div class="profile-avatar">
           <img src="assets/images/Logo.png" alt="Logo Abraham Castelan" />
-        </figure>
+        </div>
         <div class="profile-data">
           <span class="profile-name">Abraham Castelan</span>
           <span class="profile-description">Front End Developer</span>
@@ -40,7 +42,7 @@
         </ul>
       </div>
       <div class="navigation-info">
-        <a href="#" class="btn btn-outline">Resume</a>
+        <a href="#" class="btn resume">Resume</a>
         <div class="navigation-social">
           <a href="" class="social-icon">
             <fa-icon [icon]="faGit"></fa-icon>

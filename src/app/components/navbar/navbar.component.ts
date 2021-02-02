@@ -12,12 +12,20 @@ import {
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent implements OnInit {
+  /* Asignation of Icons*/
   faBars = faBars;
   faTimes = faTimes;
   faGit = faGit;
   faLinkedin = faLinkedin;
   faInstagram = faInstagram;
+
+  /* Hamburger Menu Variable*/
+  showMenu = false;
   constructor() {}
 
   ngOnInit(): void {}
+
+  hamburgerMenu() {
+    this.showMenu = !this.showMenu;
+  }
 }
