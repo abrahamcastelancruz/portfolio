@@ -29,6 +29,7 @@
 .hero-description {
   text-align: justify;
   padding-bottom: 1rem;
+  font-size: 1.2rem;
 }
 
 .btn {
@@ -38,18 +39,67 @@
   text-align: center;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about {
+  background-color: #001233;
+  padding: 2rem 0;
+}
+
+.about-content {
+  color: var(--white);
+  text-align: justify;
+  font-size: 1.3rem;
+}
+.about-text-left p:last-of-type {
+  padding-bottom: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     display: grid;
     grid-template-columns: 47% 47%;
     column-gap: 6%;
     align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    column-gap: 6%;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .about-text-left {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    text-align: right;
+  }
+
+  .about-text-left p {
+    text-align: justify;
+  }
+
+  .about-image {
+    grid-column-start: -3;
+    grid-column-end: -1;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 70%;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .hero {
     width: 80%;
+    height: 70vh;
     align-items: center;
     justify-content: center;
   }
@@ -75,6 +125,38 @@
   .hero-image img {
     max-width: 100%;
   }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    column-gap: 6%;
+    grid-template-rows: max-content;
+  }
+
+  .about-text-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+  }
+
+  .about-text-left {
+    text-align: left;
+  }
+
+  .about-image {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .about-image img {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -99,5 +181,9 @@
 
   .btn-outline {
     font-size: 1.5rem;
+  }
+
+  .about-image img {
+    width: 50%;
   }
 }

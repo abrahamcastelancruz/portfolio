@@ -56,3 +56,8 @@ img {
   background-color: var(--primary-dark);
   color: var(--white);
 }
+
+.title {
+  font-size: 2.5rem;
+  color: var(--white);
+}
