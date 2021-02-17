@@ -13,7 +13,7 @@
     <a href="https://github.com/abrahamcastelancruz/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/abrahamcastelancruz/portfolio">View Demo</a>
+    <a href="https://portfolio-five-gules.vercel.app/" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/abrahamcastelancruz/portfolio/issues">Report Bug</a>
     ·
@@ -49,9 +49,7 @@
 
 ## About The Project
 
-<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
-
-Thi's my portfolio website, is my personal web page, thanks for visiting my repo.
+This is my portfolio website, is my personal web page, thanks for visiting my repo.
 
 ### Built With
 

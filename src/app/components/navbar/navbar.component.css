@@ -1,19 +1,20 @@
 .site-header {
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.4);
   height: 10vh;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: var(--z-fixed);
-  padding: 0 0.5rem;
 }
 
 .logo {
   max-height: 100%;
+  margin-left: 1rem;
 }
 
 .logo-image {
@@ -75,10 +76,11 @@
 
   .navigation-profile .profile-avatar {
     width: 20%;
+    border-radius: 100%;
   }
 
   .profile-avatar img {
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
     border-radius: 100%;
   }
 
@@ -111,6 +113,11 @@
     color: var(--white);
     font-weight: 300;
     font-size: 1.3rem;
+  }
+
+  .active a {
+    color: var(--primary-light) !important;
+    font-weight: 800 !important;
   }
 
   .navigation-info {
@@ -153,6 +160,7 @@
 
   .site-header {
     padding: 0 2rem 0;
+    position: relative;
   }
 
   .logo {
@@ -200,6 +208,7 @@
     color: #000;
     font-weight: 100;
     transition: 0.3s ease-out all;
+    cursor: pointer;
   }
 
   .navigation-link:hover {
@@ -210,6 +219,14 @@
     display: flex;
     padding: 0 3rem;
     align-items: center;
+  }
+
+  .active a {
+    color: var(--primary-dark) !important;
+  }
+
+  .active {
+    border-bottom: 1px solid var(--primary-dark) !important;
   }
 
   .resume {

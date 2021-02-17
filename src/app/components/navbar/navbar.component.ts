@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
+import { RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
