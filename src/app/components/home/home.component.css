@@ -1,0 +1,103 @@
+.hero {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.hero-text {
+  text-align: left;
+}
+
+.hero-greeting {
+  font-family: var(--mono);
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+.hero-text h1 {
+  color: var(--primary);
+  font-size: 1.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-text h2 {
+  color: var(--primary-light);
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.hero-description {
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  display: inline;
+  width: 50%;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 6%;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-greeting {
+    font-size: 1.3rem;
+  }
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.9rem;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+  }
+
+  .hero-image {
+    text-align: right;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .hero-greeting {
+    font-size: 1.5rem;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-text h2 {
+    font-size: 2.7rem;
+  }
+
+  .hero-description {
+    font-size: 1.5rem;
+  }
+
+  .hero-image {
+    text-align: right;
+  }
+
+  .btn-outline {
+    font-size: 1.5rem;
+  }
+}

@@ -41,4 +41,18 @@ img {
   margin: 0 auto;
   width: 50%;
   padding: 0.7rem;
+  text-align: center;
+}
+
+.btn-outline {
+  border: 4px solid var(--primary-dark);
+  color: var(--primary);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  transition: 0.3s ease-out all;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-dark);
+  color: var(--white);
 }

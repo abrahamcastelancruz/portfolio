@@ -159,8 +159,8 @@
   }
 
   .site-header {
-    padding: 0 2rem 0;
     position: relative;
+    width: 100%;
   }
 
   .logo {
@@ -186,6 +186,10 @@
 
   .navigation .navigation-list {
     display: flex;
+  }
+
+  .navigation {
+    max-width: 100%;
   }
 
   .navigation-list .navigation-item {
